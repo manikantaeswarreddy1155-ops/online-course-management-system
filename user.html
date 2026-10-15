@@ -1,0 +1,33 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Page</title>
+</head>
+<body>
+    <h1>Student Dashboard</h1>
+    <p>Welcome to your learning dashboard!</p>
+
+    <h2>My Courses</h2>
+    <ul>
+        <li>HTML and CSS</li>
+        <li>Python Programming</li>
+        <li>Java Programming</li>
+    </ul>
+
+    <button onclick="showMessage()">View Courses</button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "You are viewing your courses!";
+        }
+    </script>
+
+    <br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+```
